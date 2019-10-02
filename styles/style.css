@@ -1,15 +1,19 @@
 body {
     background-image: url("../images/header_bg.jpg");
+    background-color: black;
 }
-div {
-    line-height: 800px;
-    vertical-align: middle;
-    margin: 0px auto 0px auto;
+img {
+    display: block;
+    margin: 275px auto 0px auto;
     width: 25%;
-    vertical-align: middle;
 }
-div img {
-
-    vertical-align: middle;
-
+#home {
+    display: block;
+    margin: 0px auto 0px auto;
+    width: 50%
+}
+#icons {
+    display: block;
+    margin: 0px auto 0px auto;
+    width: 50%
 }
