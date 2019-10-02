@@ -8,12 +8,53 @@ img {
     width: 25%;
 }
 #home {
+    float: left;
     display: block;
     margin: 0px auto 0px auto;
-    width: 50%
+    width: 50%;
+}
+#features {
+    display: block;
+    margin: 0px auto 0px auto;
+    width: 50%;
+}
+#pages {
+    display: block;
+    margin: 0px auto 0px auto;
+    width: 50%;
 }
 #icons {
     display: block;
     margin: 0px auto 0px auto;
     width: 50%
+}
+#portofolio {
+    display: block;
+    margin: 0px auto 0px auto;
+    width: 50%;
+}
+#blog {
+    display: block;
+    margin: 0px auto 0px auto;
+    width: 50%;
+}
+#contact {
+    display: block;
+    margin: 0px auto 0px auto;
+    width: 50%;
+}
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.416);
+    font-size: 40px;
+}
+.buttons {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px solid rgba(0, 0, 0, 0);
+    margin: 20px;
+}
+.buttonText {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;  
 }
