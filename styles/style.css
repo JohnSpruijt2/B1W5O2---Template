@@ -1,0 +1,15 @@
+body {
+    background-image: url("../images/header_bg.jpg");
+}
+div {
+    line-height: 800px;
+    vertical-align: middle;
+    margin: 0px auto 0px auto;
+    width: 25%;
+    vertical-align: middle;
+}
+div img {
+
+    vertical-align: middle;
+
+}
