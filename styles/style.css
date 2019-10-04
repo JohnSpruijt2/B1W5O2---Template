@@ -34,6 +34,7 @@ body {
     margin: 0px auto 0px auto;
     height: 10%;
     width: 45%;
+    margin-left: 550px;
 }
 #portofolio {
     display: block;
@@ -91,4 +92,7 @@ nav {
     font-family: 'Roboto', sans-serif;  
     font-size: 80px;
     text-align: center;
+}
+#button1 {
+    margin-left: 15px;
 }
