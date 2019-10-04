@@ -7,22 +7,23 @@
 <title>Pages</title>
 </head>
 <body>
+<script src="javascript.js"></script>
 <nav>
-    <button class="menu"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="google" class="fab fa-google-plus-g"></a></button>
-    <button class="menu"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="facebook" class="fab fa-facebook-f"></a></button>
-    <button class="menu"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="twitter" class="fab fa-twitter"></a></button>
-    <button class="menu"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="signal" class="fas fa-wifi"></a></button>
+    <form action="https://youtu.be/dQw4w9WgXcQ">
+        <button class="menu"><i id="google" class="fab fa-google-plus-g"></i></button>
+        <button class="menu"><i id="facebook" class="fab fa-facebook-f"></i></button>
+        <button class="menu"><i id="twitter" class="fab fa-twitter"></i></button>
+        <button class="menu"><i id="signal" class="fas fa-wifi"></i></button>
+    </form>
 </nav>
-<center><h1 class="name">Pages</h1></center>
+<h1 id="name">Pages</h1>
 <div id="icons">
-<button class="buttons" id="button1"><a href="../index.html" id="home" class="fas fa-home"></a><br><a class="buttonText" href="../index.html">Home</a></button>
-<button class="buttons"><a href="features.html" id="features" class="fas fa-cogs"></a><a class="buttonText" href="features.html">Features</a</button>
-<button class="buttons"><a href="pages.html" id="pages" class="far fa-file"></a><a class="buttonText" href="pages.html">Pages</a</button>
-<button class="buttons"><a href="portofolio.html" id="portofolio" class="fas fa-th"></a><a class="buttonText" href="portofolio.html">Portofolio</a</button>
-<button class="buttons"><a href="blog.html" id="blog" class="fas fa-font"></a><a class="buttonText" href="blog.html"><pre>  Blog</pre></a</button>
-<button class="buttons"><a href="contact.html" id="contact" class="fas fa-comment"></a><a class="buttonText" href="contact.html">Contact</a</button>
-
+<button class="buttons" onclick="window.location.href ='../index.html'"><i id="home" class="fas fa-home"></i><span class="buttonText">Home</span></button>
+<button class="buttons" onclick="window.location.href ='features.html'"><i id="features" class="fas fa-cogs"></i><span class="buttonText">Features</span></button>
+<button class="buttons" onclick="window.location.href ='pages.html'"><i id="pages" class="far fa-file"></i><span class="buttonText">Pages</span></button>
+<button class="buttons" onclick="window.location.href ='portofolio.html'"><i id="portofolio" class="fas fa-th"></i><span class="buttonText">Portofolio</span></button>
+<button class="buttons" onclick="window.location.href ='blog.html'"><i id="blog" class="fas fa-font"></i><span class="buttonText">Blog</span></button>
+<button class="buttons" onclick="window.location.href ='contact.html'"><i id="contact" class="fas fa-comment"></i><span class="buttonText">Contact</span></button>
 </div>
 </body>
-
 </html>

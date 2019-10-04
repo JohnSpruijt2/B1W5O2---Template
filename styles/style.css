@@ -12,10 +12,12 @@ body {
     width: 25%;
 }
 #home {
-    float: left;
     display: block;
     margin: 0px auto 0px auto;
     width: 50%;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.416);
+    font-size: 40px;
 }
 #features {
     display: block;
@@ -30,7 +32,8 @@ body {
 #icons {
     display: block;
     margin: 0px auto 0px auto;
-    width: 50%
+    height: 10%;
+    width: 45%;
 }
 #portofolio {
     display: block;
@@ -52,14 +55,18 @@ a {
     color: rgba(255, 255, 255, 0.416);
     font-size: 40px;
 }
+i {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.416);
+    font-size: 40px;
+}
 .buttons {
     background-color: rgba(0, 0, 0, 0);
     border: 0px solid rgba(0, 0, 0, 0);
     margin: 20px;
+    cursor: pointer;
 }
-#button1 {
-    margin-left: 140px;
-}
+
 .buttonText {
     color: rgba(255, 255, 255, 0.8);
     font-size: 20px;
@@ -76,15 +83,12 @@ nav {
     background-color: grey;
     width: 55px;
     height: 55px;
+    cursor: pointer;
 }
-pre{
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;  
-}
-.name  {
+#name  {
     color: white;
     margin-top: 275px;
     font-family: 'Roboto', sans-serif;  
-    font-size: 80px
+    font-size: 80px;
+    text-align: center;
 }
